@@ -1,36 +1,40 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import { Fade } from "react-awesome-reveal";
 
 const Footer = () => {
   return (
     <>
-      <footer className="relative z-10 bg-white pt-8 dark:bg-gray-dark md:pt-10 lg:pt-12">
-        <div className="container">
-          <div className="-mx-4 flex flex-wrap justify-center">
-            <div className="w-full px-4 md:w-1/3 lg:w-3/12 xl:w-4/12 flex justify-center">
-              <div className="max-w-[360px]">
-                <Link href="/" className="mb-8 inline-block">
-                  <Image
-                    src="/images/logo/Rice_Owls_logo.svg" style={{ width: '50px', height: 'auto' }}
-                    alt="logo"
-                    className="w-full dark:hidden"
-                    width={140}
-                    height={30}
-                  />
-                  <Image
-                    src="/images/logo/Rice_Owls_logo.svg" style={{ width: '50px', height: 'auto' }}
-                    alt="logo"
-                    className="hidden w-full dark:block"
-                    width={140}
-                    height={30}
-                  />
-                </Link>
-                <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Some text blah blah blah
-                </p>
-            </div>
-                <div className="flex flex-col items-start pl-9 space-y-4">
+      <footer className="relative z-10 bg-transparent pt-8 dark:bg-transparent md:pt-10 lg:pt-12">
+        <Fade>
+          <div className="container">
+            <div className="-mx-4 flex flex-wrap justify-center">
+              <div className="flex w-full justify-center px-4 md:w-1/3 lg:w-3/12 xl:w-4/12">
+                <div className="max-w-[360px]">
+                  <Link href="/" className="mb-8 inline-block">
+                    <Image
+                      src="/images/logo/Rice_Owls_logo.svg"
+                      style={{ width: "50px", height: "auto" }}
+                      alt="logo"
+                      className="w-full dark:hidden"
+                      width={140}
+                      height={30}
+                    />
+                    <Image
+                      src="/images/logo/Rice_Owls_logo.svg"
+                      style={{ width: "50px", height: "auto" }}
+                      alt="logo"
+                      className="hidden w-full dark:block"
+                      width={140}
+                      height={30}
+                    />
+                  </Link>
+                  <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
+                    Some text blah blah blah
+                  </p>
+                </div>
+                <div className="flex flex-col items-start space-y-4 pl-9">
                   <a
                     href="/"
                     aria-label="social-link"
@@ -108,30 +112,29 @@ const Footer = () => {
                 </div>
               </div>
 
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
-              <div className="mb-0 lg:mb-0">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Useful
-                </h2>
-                <ul>
-                  <li>
-                    <Link
-                      href="/blog"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      Address and email
-                    </Link>
-                  </li>
-                </ul>
+              <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+                <div className="mb-0 lg:mb-0">
+                  <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
+                    Useful
+                  </h2>
+                  <ul>
+                    <li>
+                      <Link
+                        href="/join"
+                        className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      >
+                        Address and email
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
               </div>
-
             </div>
           </div>
-        </div>
-
-  <h2 className="mb-0 pb-4 text-xs !leading-tight text-center text-black dark:text-white sm:text-sm md:text-base">
- Rice Carrera - Solar Car Team © 2024
-              </h2>
+          <h2 className="mb-0 pb-4 text-center text-xs !leading-tight text-black dark:text-white sm:text-sm md:text-base">
+            Rice Carrera - Solar Car Team © 2024
+          </h2>
+        </Fade>
       </footer>
     </>
   );

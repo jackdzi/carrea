@@ -38,6 +38,8 @@ module.exports = {
         current: "currentColor",
         transparent: "transparent",
         white: "#FFFFFF",
+        purple: "#2A0030",
+        beige: "#8B7D6B",
         black: "#121723",
         dark: "#1D2430",
         primary: "#4A6CF7",

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   // other metadata
 };
 
-const Blog = () => {
+const Join = () => {
   return (
     <>
       <Breadcrumb
@@ -21,4 +21,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default Join;

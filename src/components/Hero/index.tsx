@@ -15,9 +15,9 @@ const Hero = () => {
                   Carrera - Rice University&apos;s <br />
                   First Solar Car Club
                 </h1>
-                <div className="mb-10 flex items-center justify-center rounded-md bg-gray-800/80 text-white font-semibold p-4">
+                <div className="mb-10 flex items-center justify-center rounded-md bg-gray-800 text-white font-semibold p-4">
                   <span className="block">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   </span>
                 </div>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
