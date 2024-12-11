@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="container">
           <div className="-mx-4 flex flex-wrap justify-center">
             <div className="w-full px-4 md:w-1/3 lg:w-3/12 xl:w-4/12 flex justify-center">
-              <div className="mb-12 max-w-[360px] lg:mb-16">
+              <div className="max-w-[360px]">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
                     src="/images/logo/Rice_Owls_logo.svg" style={{ width: '50px', height: 'auto' }}
@@ -109,7 +109,7 @@ const Footer = () => {
               </div>
 
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
-              <div className="mb-12 lg:mb-16">
+              <div className="mb-0 lg:mb-0">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Useful
                 </h2>
@@ -119,7 +119,7 @@ const Footer = () => {
                       href="/blog"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Address and email and shit
+                      Address and email
                     </Link>
                   </li>
                 </ul>
@@ -129,9 +129,9 @@ const Footer = () => {
           </div>
         </div>
 
-              <h1 style={{ textAlign: 'center', paddingBottom: '20px' }}>
+  <h2 className="mb-0 pb-4 text-xs !leading-tight text-center text-black dark:text-white sm:text-sm md:text-base">
  Rice Carrera - Solar Car Team © 2024
-              </h1>
+              </h2>
       </footer>
     </>
   );

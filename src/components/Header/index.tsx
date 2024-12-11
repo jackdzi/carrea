@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
+import ThemeToggle from "../ThemeToggle";
 import menuData from "./menuData";
 
 const Header = () => {
@@ -159,8 +160,12 @@ const Header = () => {
                     ))}
                   </ul>
                 </nav>
+
               </div>
+
             </div>
+        <ThemeToggle />
+
           </div>
         </div>
       </header>
