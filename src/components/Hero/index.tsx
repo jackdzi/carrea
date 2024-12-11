@@ -12,7 +12,7 @@ const Hero = () => {
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center pt-[120px] pb-[160px] md:pt-[150px] md:pb-[180px] xl:pt-[180px] xl:pb-[200px] 2xl:pt-[210px] 2xl:pb-[240px]">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-darkDarkBlue sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Carrea - Rice University's <br />
+                  Carrea - Rice University&apos;s <br />
                   First Solar Car Club
                 </h1>
                 <div className="mb-10 flex items-center justify-center rounded-md bg-gray-800/80 text-white font-semibold p-4">
