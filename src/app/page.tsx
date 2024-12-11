@@ -13,8 +13,8 @@ import ParallaxImage from "@/components/ParallaxImage"
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Carrea - Rice University Solar Car Club",
-  description: "Carrea - Rice University Solar Car Club",
+  title: "Carrera - Rice University Solar Car Club",
+  description: "Carrera - Rice University Solar Car Club",
 };
 
 export default function Home() {

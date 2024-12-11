@@ -4,8 +4,8 @@ import Features from "@/components/Features";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Join Carrea",
-  description: "Join Carrea",
+  title: "Join Carrera",
+  description: "Join Carrera",
   // other metadata
 };
 
@@ -13,7 +13,7 @@ const Blog = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Join Carrea"
+        pageName="Join Carrera"
         description="How to join"
       />
       <Features />

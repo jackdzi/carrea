@@ -130,7 +130,7 @@ const Footer = () => {
         </div>
 
               <h1 style={{ textAlign: 'center', paddingBottom: '20px' }}>
- Rice Carrea - Solar Car Team © 2024
+ Rice Carrera - Solar Car Team © 2024
               </h1>
       </footer>
     </>
