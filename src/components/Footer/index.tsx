@@ -9,8 +9,8 @@ const Footer = () => {
       <footer className="relative z-10 bg-transparent pt-8 dark:bg-transparent md:pt-10 lg:pt-12">
         <Fade>
           <div className="container">
-            <div className="-mx-4 flex flex-wrap justify-center">
-              <div className="flex w-full justify-center px-4 md:w-1/3 lg:w-3/12 xl:w-4/12">
+            <div className="w-[98%] mx-auto flex flex-nowrap justify-center">
+              <div className="flex w-full justify-center px-4">
                 <div className="max-w-[360px]">
                   <Link href="/" className="mb-8 inline-block">
                     <Image
@@ -30,8 +30,8 @@ const Footer = () => {
                       height={30}
                     />
                   </Link>
-                  <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                    Some text blah blah blah
+                  <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark whitespace-nowrap">
+                    Rice University
                   </p>
                 </div>
                 <div className="flex flex-col items-start space-y-4 pl-9">
@@ -110,18 +110,16 @@ const Footer = () => {
                     </svg>
                   </a>
                 </div>
-              </div>
 
-              <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
-                <div className="mb-0 lg:mb-0">
+                <div className="mb-0 lg:mb-0 ml-auto">
                   <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                    Useful
+                    Resources
                   </h2>
                   <ul>
                     <li>
                       <Link
                         href="/join"
-                        className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                        className="my-7 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                       >
                         Address and email
                       </Link>

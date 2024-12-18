@@ -17,7 +17,7 @@ const Features = () => {
             />
           </Fade>
             <Fade>
-          <div className="grid grid-cols-1 place-items-center gap-x-28 gap-y-10 md:grid-cols-2">
+          <div className="grid grid-cols-1 place-items-center text-center gap-x-28 gap-y-10 md:grid-cols-2">
               {featuresData.map((feature) => (
                 <SingleFeature key={feature.id} feature={feature} />
               ))}
